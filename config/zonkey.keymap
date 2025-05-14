@@ -207,8 +207,17 @@
             bindings = <
 &none   &none      &none         &none     &none                    &kp LG(NUMBER_1)      &kp LA(LG(LEFT_ARROW))  &none  &kp LA(LG(RIGHT_ARROW))  &kp LG(NUMBER_9)
 &none   &kp LCTRL  &kp LEFT_ALT  &kp LCMD  &none   &none     &none  &none                 &mkp LCLK               &none  &mkp RCLK                &none
-&trans  &none      &none         &none     &none   &none     &none  &none                 &none                   &none  &none                    &none
+&trans  &none      &none         &none     &none   &none     &none  &kp LS(LG(NUMBER_3))  &none                   &none  &none                    &none
 &trans  &trans     &trans        &trans    &trans  &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                                     &none
+            >;
+        };
+
+        Arrow {
+            bindings = <
+&kp NUMBER_1       &kp NUMBER_2              &kp NUMBER_3       &kp NUMBER_4               &kp NUMBER_5                             &kp NUMBER_6       &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9     &kp NUMBER_0
+&kp C_VOLUME_DOWN  &kp LC(LG(LEFT_BRACKET))  &kp LC(LG(SPACE))  &kp LC(LG(RIGHT_BRACKET))  &kp C_VOLUME_UP  &none            &none  &kp LEFT_ARROW     &kp DOWN_ARROW     &kp UP_ARROW   &kp RIGHT_ARROW  &none
+&trans             &none                     &none              &kp LG(NUMBER_0)           &kp LG(MINUS)    &kp LG(EQUAL)    &none  &kp LA(LC(SPACE))  &kp LA(LC(SPACE))  &kp LS(LA(J))  &none            &none
+&trans             &trans                    &trans             &trans                     &trans           &trans                  &trans             &trans                                                           &trans
             >;
         };
     };
