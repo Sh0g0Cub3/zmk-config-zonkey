@@ -250,10 +250,10 @@
 
         Symbol {
             bindings = <
-&kp LS(TILDE)  &kp LS(DLLR)   &kp LS(POUND)  &kp LS(AT)    &kp LS(EXCL)                        &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH      &none       &none
-&kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(UNDER)  &kp GRAVE    &trans  &kp LBKT      &kp RBKT      &kp LS(PIPE)  &trans      &none
-&trans         &kp LS(DQT)    &kp SQT        &kp EQUAL     &kp LS(PLUS)   &kp MINUS    &none   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)    &kp LS(GT)  &none
-&trans         &trans         &trans         &trans        &trans         &trans               &kp LA(RET)   &kp LS(RET)                                    &trans
+&kp LS(TILDE)  &kp LS(DLLR)   &kp LS(POUND)  &kp LS(AT)    &kp LS(EXCL)                        &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH      &kp SLASH      &kp LS(SEMICOLON)
+&kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(UNDER)  &kp GRAVE    &trans  &kp LBKT      &kp RBKT      &kp LS(PIPE)  &kp LS(SLASH)  &kp SEMICOLON
+&trans         &kp LS(DQT)    &kp SQT        &kp EQUAL     &kp LS(PLUS)   &kp MINUS    &none   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)    &kp LS(GT)     &none
+&trans         &trans         &trans         &trans        &trans         &trans               &kp LA(RET)   &kp LS(RET)                                                   &trans
             >;
         };
 
