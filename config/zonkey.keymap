@@ -227,7 +227,7 @@
 &kp LCTRL       &kp LEFT_ALT  &kp LCMD  &mo 4  &mo 3  &lt 5 SPACE                                        &kp LEFT_SHIFT  &lt 2 ENTER                                   &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         Mouse {
